@@ -1,0 +1,31 @@
+$html-background-color: white;
+/*
+   ==|== layout primary styles =================================================
+   Author:
+   ==========================================================================
+*/
+html {
+  background-image:url('http://i.pinger.pl/pgr206/26d8e0de000da66749fd83ba/tapetoblog+-+tapeta+nr36+1600x1200.jpg');
+}
+// http://www.smashingmagazine.com/2011/10/07/16-pixels-body-copy-anything-less-costly-mistake/ */
+body {
+  font-size: 18px;
+  line-height: 1.5;
+}
+// width 600px approx. 60 characters per line
+div[role="main"] {
+  width: 600px;
+  margin: 0 auto 18px;
+  padding: 2px 18px 18px 18px;
+  background: white;
+}
+header {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 18px;
+  background-image:url('http://4.bp.blogspot.com/_GlXPh6m54WM/S_BJMUwsnUI/AAAAAAAAFbI/_lmsq9Lzv2c/s1600/summer-1280-800-5383.jpg');
+  color: #FFF;
+  h1 {
+    font-size: 140%;
+  }
+}
